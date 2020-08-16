@@ -3,4 +3,4 @@ debugLog: anObject
 	"Debugging log"
 
 	self isDebug ifTrue: [ 
-		(DateAndTime now asString , ': ' , anObject asString) traceCr ]
+		(DateAndTime now asString , ': ' , anObject asString) crTrace ]
