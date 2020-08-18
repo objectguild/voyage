@@ -1,5 +1,6 @@
 execution
 execute
+	Mongo debugLog: 'update'.
 	repository
 		withNewVersionFor: self
 		do: [

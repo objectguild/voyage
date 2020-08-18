@@ -1,5 +1,6 @@
 execution
 execute
+	Mongo debugLog: 'count'.
 	^ self repository
 		collectionAt: queryClass
 		readingDo: [ :collection |

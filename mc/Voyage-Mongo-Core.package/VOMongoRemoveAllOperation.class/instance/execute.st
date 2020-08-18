@@ -1,5 +1,6 @@
 execution
 execute
+	Mongo debugLog: 'removeAll'.
 	self repository
 		collectionAt: queryClass
 		writingDo: [ :collection |

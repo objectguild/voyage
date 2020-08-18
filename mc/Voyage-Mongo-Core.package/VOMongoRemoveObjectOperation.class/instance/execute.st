@@ -1,5 +1,6 @@
 execution
 execute
+	Mongo debugLog: 'removeObject'.
 	self repository
 		collectionAt: object class
 		writingDo: [ :collection |
