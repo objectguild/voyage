@@ -1,3 +1,3 @@
 system startup
 shutDown
-	self stopSDAMClient 
+	self stopSDAMClient
