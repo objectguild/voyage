@@ -1,6 +1,6 @@
 persistence
 basicSelectOne
 	Mongo debugLog: 'readOne'.
-	self repository
+	^ self repository
 		collectionAt: queryClass
 		readingDo: [ :collection | collection detect: where ]
