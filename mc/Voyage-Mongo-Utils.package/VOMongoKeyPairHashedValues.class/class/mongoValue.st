@@ -9,5 +9,6 @@ mongoValue
 			read: [ :anObject | 
 				anObject value associations 
 					collect: [ :each | VOMongoKeyPair fromAssociation: each ] ]
-			write: [ :anObject :value | (value collect: #asAssociation) asDictionary ]);
+			write: [ :anObject :value | 
+				anObject instVarNamed: #value put: (value collect: #asAssociation) asDictionary ]);
 		yourself
