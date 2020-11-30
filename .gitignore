@@ -14,3 +14,4 @@ pharo
 pharo-ui
 pharo-vm/
 PharoDebug.log
+*.patch
