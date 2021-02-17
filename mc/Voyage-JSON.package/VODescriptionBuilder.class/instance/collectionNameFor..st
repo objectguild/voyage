@@ -1,4 +1,3 @@
 private
 collectionNameFor: aClass
-	^ aClass voyageCollectionName
-	
+	^ aClass voyageCollectionName asString
